@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Ingeniero de IA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans leading-normal tracking-normal">
+
+    <nav class="flex items-center justify-between flex-wrap p-6 fixed w-full z-10 top-0 bg-gray-900/90 backdrop-blur-sm">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <span class="font-bold text-xl tracking-tight">Portafolio</span>
+        </div>
+        <div class="block lg:hidden">
+            <button class="flex items-center px-3 py-2 border rounded text-gray-200 border-gray-400 hover:text-white hover:border-white">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+            </button>
+        </div>
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+            <div class="text-sm lg:flex-grow">
+                <a href="#proyectos" class="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-blue-400 mr-4">Proyectos</a>
+                <a href="#skills" class="block mt-4 lg:inline-block lg:mt-0 text-gray-200 hover:text-blue-400 mr-4">Habilidades</a>
+            </div>
+            <div>
+                <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-blue-500 hover:bg-blue-500 mt-4 lg:mt-0">Descargar CV</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="pt-32 pb-16 px-6 text-center">
+        <h1 class="text-5xl font-extrabold text-blue-500 mb-4 uppercase tracking-tighter">Esteban</h1>
+        <p class="text-xl text-gray-400 max-w-2xl mx-auto">
+            Ingeniero de Software especializado en <span class="text-white">Inteligencia Artificial</span>. 
+            Apasionado por los modelos de lenguaje, visión computacional y despliegue de modelos en producción.
+        </p>
+        <div class="mt-8 flex justify-center space-x-6 text-2xl">
+            <a href="#" class="hover:text-blue-400"><i class="fab fa-github"></i></a>
+            <a href="#" class="hover:text-blue-400"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="hover:text-blue-400"><i class="fas fa-envelope"></i></a>
+        </div>
+    </header>
+
+    <section id="proyectos" class="container mx-auto px-6 py-12">
+        <h2 class="text-3xl font-bold mb-8 border-l-4 border-blue-500 pl-4 uppercase">Proyectos Destacados</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-gray-800 p-6 rounded-xl hover:ring-2 hover:ring-blue-500 transition-all">
+                <h3 class="text-xl font-bold mb-2">Clasificador de Sentimientos con BERT</h3>
+                <p class="text-gray-400 mb-4">Análisis de sentimientos en tiempo real utilizando Hugging Face Transformers y FastAPI.</p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="bg-blue-900 text-blue-200 px-2 py-1 rounded text-xs">Python</span>
+                    <span class="bg-blue-900 text-blue-200 px-2 py-1 rounded text-xs">PyTorch</span>
+                    <span class="bg-blue-900 text-blue-200 px-2 py-1 rounded text-xs">Docker</span>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-blue-400 hover:underline">Ver Código</a>
+                    <a href="#" class="text-blue-400 hover:underline font-bold">Demo Live</a>
+                </div>
+            </div>
+
+            <div class="bg-gray-800 p-6 rounded-xl hover:ring-2 hover:ring-blue-500 transition-all">
+                <h3 class="text-xl font-bold mb-2">RAG System para Documentación</h3>
+                <p class="text-gray-400 mb-4">Sistema de recuperación de información (Retrieval Augmented Generation) usando LangChain y OpenAI.</p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="bg-blue-900 text-blue-200 px-2 py-1 rounded text-xs">LangChain</span>
+                    <span class="bg-blue-900 text-blue-200 px-2 py-1 rounded text-xs">Pinecone</span>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-blue-400 hover:underline">Ver Código</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="bg-gray-800 py-16 px-6 mt-12">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-10 text-center uppercase">Habilidades Técnicas</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div class="p-4 border border-gray-700 rounded-lg">
+                    <i class="fab fa-python text-blue-400 text-3xl mb-2"></i>
+                    <p>Python (Pandas, NumPy)</p>
+                </div>
+                <div class="p-4 border border-gray-700 rounded-lg">
+                    <i class="fas fa-brain text-purple-400 text-3xl mb-2"></i>
+                    <p>TensorFlow / PyTorch</p>
+                </div>
+                <div class="p-4 border border-gray-700 rounded-lg">
+                    <i class="fas fa-database text-green-400 text-3xl mb-2"></i>
+                    <p>SQL & Vector DBs</p>
+                </div>
+                <div class="p-4 border border-gray-700 rounded-lg">
+                    <i class="fas fa-cloud text-orange-400 text-3xl mb-2"></i>
+                    <p>AWS / Azure ML</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-gray-500 text-sm">
+        &copy; 2024 Creado por [Tu Nombre] | Portafolio de Ingeniería de Software con IA
+    </footer>
+
+</body>
+</html>
