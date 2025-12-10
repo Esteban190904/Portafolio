@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio | Esteban Arturo Württele Cueva</title>
+    <meta property="og:title" content="Portafolio de Esteban Württele | Ing. de Software con IA">
+    <meta property="og:description" content="Especialista en desarrollo web (Laravel) y soluciones de Inteligencia Artificial. Mira mi proyecto de tesis y trayectoria.">
+    <meta property="og:image" content="https://tu-usuario.vercel.app/interfaz.png"> <meta property="og:url" content="https://tu-usuario.vercel.app">
+    <meta name="theme-color" content="#0f172a">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -16,16 +20,25 @@
     <nav class="fixed w-full z-20 top-0 bg-slate-900/95 backdrop-blur border-b border-slate-800">
         <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
             <div class="text-2xl font-bold text-blue-500 tracking-tighter">
-                E.A. <span class="text-white">DEV</span>
+                E.W. <span class="text-white">DEV</span>
             </div>
             <div class="hidden md:flex space-x-8 text-sm font-medium">
-                <a href="#sobre-mi" class="hover:text-blue-400 transition">Sobre Mí</a>
+                <a href="sobremi.html" class="hover:text-blue-400 transition">Sobre Mí</a>
                 <a href="#proyectos" class="hover:text-blue-400 transition">Proyectos</a>
                 <a href="#skills" class="hover:text-blue-400 transition">Stack Técnico</a>
+                
             </div>
-            <a href="#" class="px-4 py-2 rounded-full bg-blue-600 text-white text-sm font-bold hover:bg-blue-700 transition">
-                Contáctame
+            
+            <div class="flex items-center space-x-4">
+
+            <a href="https://wa.me/51943662094?text=Hola%20Esteban,%20vi%20tu%20portafolio%20y%20me%20interesa%20tu%20perfil" target="_blank" class="px-4 py-2 rounded-full bg-green-600 text-white text-sm font-bold hover:bg-green-700 transition flex items-center">
+                <i class="fab fa-whatsapp mr-2"></i> Contáctame
             </a>
+            <a href="TU_ENLACE_A_CV.pdf" target="_blank" class="hidden md:block px-4 py-2 rounded-full bg-blue-600 text-white text-sm font-bold hover:bg-blue-700 transition">
+                Descargar CV
+            </a>
+        </div>
+
         </div>
     </nav>
 
@@ -37,16 +50,16 @@
                     Ingeniero de Software con <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Inteligencia Artificial</span>
                 </h1>
                 <p class="text-lg text-slate-400 max-w-lg">
-                    Egresado de <strong>SENATI</strong>[cite: 1]. Me especializo en digitalizar procesos de negocio mediante desarrollo de software robusto (Laravel/SQL Server) y la aplicación de modelos de IA para la toma de decisiones basada en datos.
+                    Egresado de <strong>SENATI</strong>. Me especializo en digitalizar procesos de negocio mediante desarrollo de software robusto (Laravel/SQL Server) y la aplicación de modelos de IA para la toma de decisiones basada en datos.
                 </p>
                 <div class="flex space-x-4 pt-4">
-                    <a href="https://github.com/" target="_blank" class="p-3 bg-slate-800 rounded-full hover:bg-slate-700 transition border border-slate-700">
+                    <a href="https://github.com/Esteban190904" target="_blank" class="p-3 bg-slate-800 rounded-full hover:bg-slate-700 transition border border-slate-700">
                         <i class="fab fa-github text-xl"></i>
                     </a>
                     <a href="https://linkedin.com/" target="_blank" class="p-3 bg-slate-800 rounded-full hover:bg-slate-700 transition border border-slate-700">
                         <i class="fab fa-linkedin text-xl"></i>
                     </a>
-                    <a href="mailto:cueva3181@gmail.com" class="p-3 bg-slate-800 rounded-full hover:bg-slate-700 transition border border-slate-700">
+                    <a href="mailto:esteban20182017@gmail.com" class="p-3 bg-slate-800 rounded-full hover:bg-slate-700 transition border border-slate-700">
                         <i class="fas fa-envelope text-xl"></i>
                     </a>
                 </div>
@@ -83,7 +96,7 @@ const engineer = {
                             <div class="text-blue-400 font-bold mb-2 uppercase tracking-wider text-xs">Ingeniería de Software & Gestión</div>
                             <h3 class="text-2xl font-bold text-white mb-4">ERP de Gestión Comercial - Innova Negocios</h3>
                             <p class="text-slate-400 mb-6 text-sm leading-relaxed">
-                                Desarrollo de un sistema web integral para optimizar ventas e inventario. El proyecto solucionó problemas de gestión manual, duplicidad de registros y falta de control de stock[cite: 107, 112].
+                                Desarrollo de un sistema web integral para optimizar ventas e inventario. El proyecto solucionó problemas de gestión manual, duplicidad de registros y falta de control de stock.
                             </p>
                             
                             <div class="grid grid-cols-2 gap-4 mb-6">
@@ -131,6 +144,30 @@ const engineer = {
             </div>
         </div>
     </section>
+
+
+    <section class="py-20">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-white mb-12 flex items-center">
+                <span class="w-2 h-8 bg-purple-500 mr-4 rounded"></span>
+                Formación Académica
+            </h2>
+            
+            <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700 flex flex-col md:flex-row justify-between items-center gap-6">
+                <div>
+                    <h3 class="text-2xl font-bold text-white">Ingeniería de Software con Inteligencia Artificial</h3>
+                    <p class="text-blue-400 font-medium mt-1">SENATI - Dirección Zonal Ancash</p>
+                    <p class="text-slate-400 text-sm mt-2">Título Profesional Técnico</p>
+                </div>
+                <div class="text-right">
+                    <span class="bg-slate-900 text-slate-300 px-4 py-2 rounded-lg border border-slate-600 text-sm">
+                        <i class="fas fa-calendar-alt mr-2 text-purple-400"></i> Egresado 2025
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section id="skills" class="py-20">
         <div class="max-w-7xl mx-auto px-6">
