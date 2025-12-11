@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showcase: ERP Innova Negocios</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-300 font-sans antialiased">
+
+    <nav class="fixed w-full z-20 top-0 bg-slate-900/95 backdrop-blur border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold text-white tracking-tighter">
+                <a href="index.html" class="hover:text-blue-500 transition">
+                    <i class="fas fa-arrow-left mr-2 text-blue-500"></i> Volver a Proyectos
+                </a>
+            </div>
+            <a href="TU_ENLACE_A_CV.pdf" target="_blank" class="px-4 py-2 rounded-full bg-blue-600 text-white text-sm font-bold hover:bg-blue-700 transition">
+                Descargar CV
+            </a>
+        </div>
+    </nav>
+    
+    <main class="pt-24 max-w-7xl mx-auto px-6 pb-20">
+
+        <header class="mb-12">
+            <h1 class="text-3xl font-bold text-white mb-2 flex items-center">
+                <span class="w-1 h-6 bg-blue-500 mr-3 rounded"></span>
+                Proyectos: Detalle de Interfaces
+            </h1>
+            <p class="text-lg text-slate-400 ml-4">
+                Módulos construidos para Innova Negocios.
+            </p>
+            <div class="flex mt-4 space-x-6 ml-4">
+                <span class="bg-red-800/50 text-red-300 px-3 py-1 rounded-full text-sm font-medium">Laravel/PHP</span>
+                <span class="bg-yellow-800/50 text-yellow-300 px-3 py-1 rounded-full text-sm font-medium">SQL Server</span>
+                <span class="bg-purple-800/50 text-purple-300 px-3 py-1 rounded-full text-sm font-medium">BPMN/Kanban</span>
+            </div>
+        </header>
+
+        <section class="grid md:grid-cols-2 gap-8 mb-16 items-center">
+            <div class="rounded-lg overflow-hidden shadow-xl border border-slate-700">
+                <img src="img/Imagen1.png" alt="Interfaz de Registro de Ventas" class="w-full h-auto">
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold text-white mb-3 flex items-center">
+                    <i class="fas fa-shopping-cart mr-3 text-green-400"></i> Módulo de Transacciones y Ventas
+                </h2>
+                <p class="text-slate-400 mb-4">
+                    Automatización completa del proceso de venta. Permite el registro rápido de transacciones, la asociación de clientes y la gestión del carrito de compras.
+                </p>
+                <ul class="list-disc list-inside text-slate-400 space-y-1 ml-4">
+                    <li>Generación automática de boletas (RF06).</li>
+                    <li>Validación de stock en tiempo real antes de completar la venta (RF04).</li>
+                    <li>Historial de ventas con trazabilidad de pagos.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="grid md:grid-cols-2 gap-8 mb-16 items-center">
+            <div class="md:order-2 rounded-lg overflow-hidden shadow-xl border border-slate-700">
+                <img src="img/bd.png" alt="Diagrama de Base de Datos" class="w-full h-auto">
+            </div>
+            <div class="md:order-1">
+                <h2 class="text-3xl font-bold text-white mb-3 flex items-center">
+                    <i class="fas fa-database mr-3 text-yellow-400"></i> Arquitectura de Datos y Stock
+                </h2>
+                <p class="text-slate-400 mb-4">
+                    Diseño de la base de datos relacional en SQL Server (Figura 12) para soportar la integridad de inventario y la escalabilidad del sistema.
+                </p>
+                <ul class="list-disc list-inside text-slate-400 space-y-1 ml-4">
+                    <li>Diseño de Tablas de Productos, Ventas y Usuarios.</li>
+                    <li>Reporte detallado de Inventario con opción a exportación (RF07).</li>
+                    <li>Estructura preparada para Procedimientos Almacenados y Triggers.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="grid md:grid-cols-2 gap-8 mb-16 items-center">
+            <div class="rounded-lg overflow-hidden shadow-xl border border-slate-700">
+                <img src="img/Imagen2.png" alt="Diagrama de Flujo BPMN" class="w-full h-auto">
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold text-white mb-3 flex items-center">
+                    <i class="fas fa-project-diagram mr-3 text-purple-400"></i> Modelado de Procesos (BPMN)
+                </h2>
+                <p class="text-slate-400 mb-4">
+                    Aplicación de metodologías de ingeniería para diseñar el flujo de trabajo antes de la codificación, asegurando un proceso lógico y optimizado.
+                </p>
+                <ul class="list-disc list-inside text-slate-400 space-y-1 ml-4">
+                    <li>Diagramas de Flujo (Flujo de Acceso, Registro de Ventas).</li>
+                    <li>Control de Acceso mediante roles definidos (RNF01).</li>
+                    <li>Cumplimiento del Requerimiento No Funcional (RNF04) de Tiempo de Respuesta &lt; 2s.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="grid md:grid-cols-2 gap-8 mb-16 items-center">
+            <div class="md:order-2 rounded-lg overflow-hidden shadow-xl border border-slate-700">
+                <img src="img/reportes.png" alt="Vista del Dashboard de Reportes" class="w-full h-auto">
+            </div>
+            <div class="md:order-1">
+                <h2 class="text-3xl font-bold text-white mb-3 flex items-center">
+                    <i class="fas fa-chart-line mr-3 text-blue-500"></i> Dashboard Administrativo
+                </h2>
+                <p class="text-slate-400 mb-4">
+                    Interfaz intuitiva que ofrece reportes detallados y resumen de inventario para facilitar la toma de decisiones estratégicas.
+                </p>
+                <ul class="list-disc list-inside text-slate-400 space-y-1 ml-4">
+                    <li>Visualización de Ventas Totales y Métrica de Stock.</li>
+                    <li>Base de datos de Clientes con historial de compra.</li>
+                    <li>Generación de Reporte de Inventario en formato PDF/Excel (RF07).</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="grid md:grid-cols-2 gap-8 mb-16 items-center border-t border-slate-800 pt-12">
+            <div class="rounded-lg overflow-hidden shadow-xl border border-slate-700">
+                <img src="img/productos.jpg" alt="Catálogo de Productos con Filtros" class="w-full h-auto">
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold text-white mb-3 flex items-center">
+                    <i class="fas fa-laptop-code mr-3 text-purple-400"></i> Catálogo de Productos & Frontend
+                </h2>
+                <p class="text-slate-400 mb-4">
+                    Diseño de la interfaz de usuario de cara al cliente con funciones completas de e-commerce. Muestra mis habilidades de desarrollo frontal (Frontend) y lógica de negocio.
+                </p>
+                <ul class="list-disc list-inside text-slate-400 space-y-1 ml-4">
+                    <li>Sistema de filtrado por <strong>Categorías</strong>  y <strong> Precio</strong> (UX/UI).</li>
+                    <li>Funcionalidad de <strong>Carrito de Compras</strong> que persiste en <strong>Local Storage</strong>.</li>
+                    <li>Proceso de compra con Login de Cliente.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="grid md:grid-cols-2 gap-8 mb-16 items-center">
+            <div class="md:order-2 rounded-lg overflow-hidden shadow-xl border border-slate-700">
+                <img src="img/dashboard.png" alt="Detalle del Panel de Control Administrativo" class="w-full h-auto">
+            </div>
+            <div class="md:order-1">
+                <h2 class="text-3xl font-bold text-white mb-3 flex items-center">
+                    <i class="fas fa-tachometer-alt mr-3 text-blue-400"></i> Herramientas de Gestión Interna
+                </h2>
+                <p class="text-slate-400 mb-4">
+                    Vista ampliada de las herramientas de gestión interna. Este panel centraliza el control de inventario, el estado de las ventas y la administración de usuarios y categorías.
+                </p>
+                <ul class="list-disc list-inside text-slate-400 space-y-1 ml-4">
+                    <li>Manejo de Productos (14), Ventas (13) y Clientes (5).</li>
+                    <li>Capacidad para crear, editar y eliminar registros (CRUD).</li>
+                    <li>Diseño responsive para uso administrativo.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="grid md:grid-cols-2 gap-8 mb-16 items-center">
+            <div class="rounded-lg overflow-hidden shadow-xl border border-slate-700">
+                <img src="img/login.jpg" alt="Interfaz de Login para Empleados" class="w-full h-auto">
+            </div>
+            <div>
+                <h2 class="text-3xl font-bold text-white mb-3 flex items-center">
+                    <i class="fas fa-user-lock mr-3 text-red-500"></i> Login y Autenticación de Empleados
+                </h2>
+                <p class="text-slate-400 mb-4">
+                    Implementación de un sistema de autenticación robusto para personal interno, asegurando que solo usuarios autorizados puedan acceder a los módulos de gestión y reportes.
+                </p>
+                <ul class="list-disc list-inside text-slate-400 space-y-1 ml-4">
+                    <li>Autenticación segura basada en tokens/sesiones de Laravel.</li>
+                    <li>Separación estricta de vistas Admin y vistas Cliente.</li>
+                    <li>Protección de rutas críticas mediante <strong>Middleware</strong>.</li>
+                </ul>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="bg-slate-950 py-8 border-t border-slate-800 text-center text-slate-500 text-sm mt-20">
+        <p>&copy; 2025 Esteban Arturo Württele Cueva. Todos los derechos reservados.</p>
+        <p class="mt-2">Diseñado con código puro y pasión por la tecnología.</p>
+    </footer>
+</body>
+</html>
