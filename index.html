@@ -11,7 +11,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-    /* Efecto suave al hacer scroll */
+    
     html { scroll-behavior: smooth; }
     /* Estilo para transición de menú (para el despliegue) */
     #mobile-menu {
@@ -20,7 +20,7 @@
         overflow: hidden;
     }
     #mobile-menu.active {
-        max-height: 500px; /* Suficiente altura para que se vea el contenido */
+        max-height: 500px; 
     }
 </style>
 </head>
@@ -114,6 +114,58 @@ const engineer = {
                 <span class="w-2 h-8 bg-blue-500 mr-4 rounded"></span>
                 Proyecto Destacado
             </h2>
+
+            <div class="bg-slate-900 rounded-2xl border-2 border-blue-500/50 overflow-hidden shadow-2xl mb-12 group">
+    <div class="grid md:grid-cols-5">
+        <div class="p-8 md:col-span-2 flex flex-col justify-between bg-slate-900">
+            <div>
+                <div class="flex items-center gap-2 mb-2">
+                    <span class="px-2 py-0.5 bg-green-900/50 text-green-400 text-[10px] font-bold rounded-full border border-green-700">SEO-FIRST</span>
+                    <span class="px-2 py-0.5 bg-blue-900/50 text-blue-400 text-[10px] font-bold rounded-full border border-blue-700">NEXT.JS 15</span>
+                </div>
+                
+                <h3 class="text-2xl font-bold text-white mb-4 group-hover:text-blue-400 transition">TechAudit Pro</h3>
+                <p class="text-slate-400 mb-6 text-sm leading-relaxed">
+                    Landing Page de alto rendimiento diseñada para maximizar el posicionamiento orgánico. Enfocada en <strong>SEO Técnico</strong> y optimización extrema de <strong>Core Web Vitals</strong>.
+                </p>
+                <ul class="space-y-2 mb-6 text-xs text-slate-300">
+                    <li class="flex items-center"><i class="fas fa-check-circle text-blue-500 mr-2"></i> 100/100 Lighthouse Performance</li>
+                    <li class="flex items-center"><i class="fas fa-check-circle text-blue-500 mr-2"></i> Implementación JSON-LD (Schema.org)</li>
+                    <li class="flex items-center"><i class="fas fa-check-circle text-blue-500 mr-2"></i> UX fluida con Framer Motion</li>
+                </ul>
+            </div>
+            
+            <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-slate-800 text-blue-400 rounded-full text-xs font-semibold border border-slate-700">TypeScript</span>
+                <span class="px-3 py-1 bg-slate-800 text-cyan-400 rounded-full text-xs font-semibold border border-slate-700">Tailwind</span>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-4 mt-6">
+    <a href="https://github.com/Esteban190904/Web-performance.git" target="_blank" 
+       class="flex items-center justify-center px-6 py-3 rounded-xl bg-blue-600 text-white font-bold hover:bg-blue-700 transition-all transform hover:-translate-y-1 shadow-lg shadow-blue-900/20 group">
+        <i class="fab fa-github mr-2 text-lg"></i>
+        Ver Repositorio
+        <i class="fas fa-external-link-alt ml-2 text-xs opacity-50 group-hover:opacity-100"></i>
+    </a>
+
+    <a href="https://web-performance-gilt.vercel.app/" target="_blank" 
+       class="flex items-center justify-center px-6 py-3 rounded-xl border border-slate-700 text-slate-300 font-semibold hover:bg-slate-800 transition">
+        <i class="fas fa-rocket mr-2 text-blue-400"></i>
+        Live Demo
+    </a>
+</div>
+        </div>
+        <div class="md:col-span-3 p-8 bg-slate-950 flex flex-col justify-center items-center relative overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-transparent"></div>
+            <div class="relative z-10 flex flex-col items-center">
+                <div class="w-24 h-24 rounded-full border-4 border-green-500 flex items-center justify-center mb-4">
+                    <span class="text-3xl font-bold text-green-500">100</span>
+                </div>
+                <p class="text-white font-mono text-sm tracking-widest uppercase">Lighthouse Score</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 
             <div class="bg-slate-900 rounded-2xl border border-slate-700 overflow-hidden shadow-2xl">
                 <div class="grid md:grid-cols-5">
